@@ -1,6 +1,6 @@
 {
 	"name": "Prelog",
-	"image":"mcr.microsoft.com/devcontainers/base:alpine",
+	"image": "ghcr.io/julia-vscode/julia-devcontainer",
 	"features": {
 		"ghcr.io/devcontainers/features/nix:1": {
 		  "multiUser": true,
@@ -12,7 +12,8 @@
 			"extensions": [
 				"nicolasdschmidt.lunar-pink",
 				"github.copilot",
-				"github.copilot-chat"
+				"github.copilot-chat",
+				"julialang.language-julia"
 			]
 		}
 	}
